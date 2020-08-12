@@ -329,9 +329,10 @@ PRODUCT_COPY_FILES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
-
+    
 # Perf
 PRODUCT_PACKAGES += \
+    libqti-perfd-client \
     vendor.qti.hardware.perf@2.0.vendor
 
 # Power
