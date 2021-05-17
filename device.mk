@@ -455,3 +455,11 @@ PRODUCT_BOOT_JARS += \
 
 # Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
+#GCAM
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/GCAM/system/etc/permissions/com.google.android.GoogleCameraEng.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCameraEng.xml
+
