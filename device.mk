@@ -455,7 +455,3 @@ PRODUCT_BOOT_JARS += \
 
 # Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
-# Kimci Recorder
-PRODUCT_PACKAGES += \
-    KimciRecorder
